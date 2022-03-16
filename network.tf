@@ -1,7 +1,3 @@
-provider "azurerm" {
-  features {}
-}
-
 resource "azurerm_resource_group" "h-net" {
   name     = "h-test"
   location = "eastus"
